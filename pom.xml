@@ -134,117 +134,21 @@
 
   <modules>
     <!-- Core -->
-    <module>core/core</module>
-    <module>core/util/common</module>
-
-    <!-- Specific Utils -->
-    <module>core/util/exist</module>
+    <module>core</module>
 
     <!-- Documentation -->
     <module>docs</module>
 
-    <!-- Testing Support -->
-    <module>core/testclient/jms/service-unit</module>
-    <module>core/testclient/jms/swingclient</module>
+    <module>features</module>
 
-    <!-- Logging -->
-    <module>core/logging/service-unit</module>
-
-    <!-- Rules -->
-    <module>core/workflow/domains</module>
-    <module>core/workflow/service-engine</module>
-    <module>core/workflow/service-unit</module>
-
-    <!-- Engineering Knowledge Base -->
-    <module>core/ekb/core</module>
-    <module>core/ekb/service-unit</module>
-
-    <!-- Enterprise Data Base -->
-    <module>features/edb/core</module>
-    <module>features/edb/service-engine</module>
-    <module>features/edb/service-unit</module>
-    <module>features/edb/jms</module>
-
-    <!-- SCM Domain -->
-    <module>domains/scm/implementation/service-engine</module>
-    <module>domains/scm/implementation/service-unit</module>
-    <module>domains/scm/common</module>
-
-    <!--  Notification Domain -->
-    <module>domains/notification/implementation/service-engine</module>
-    <module>domains/notification/implementation/service-unit</module>
-    
-    <!--  Issues Domain -->
-    <module>domains/issues/implementation/service-engine</module>
-    <module>domains/issues/implementation/service-unit</module>
-
-    <!--  Report Domain -->
-    <module>domains/report/implementation/service-engine</module>
-    <module>domains/report/implementation/service-unit</module>
-
-    <!--  Test Domain -->
-    <module>domains/test/implementation/service-engine</module>
-    <module>domains/test/implementation/service-unit</module>
-
-    <!-- Build Domain -->
-    <module>domains/build/implementation/service-engine</module>
-    <module>domains/build/implementation/service-unit</module>
-
-    <!--  Deploy Domain -->
-    <module>domains/deploy/implementation/service-engine</module>
-    <module>domains/deploy/implementation/service-unit</module>
-
-    <!-- Tool Abstraction -->
-    <module>domains/toolabstraction/maven</module>
-    <module>domains/toolabstraction/twitter</module>
-    <module>domains/toolabstraction/facebook</module>
-
-    <!-- Connectors -->
-    <module>domains/scm/subversion/service-engine</module>
-    <module>domains/notification/email/service-engine</module>
-    <module>domains/notification/twitter/service-engine</module>
-    <module>domains/notification/xmpp/service-engine</module>
-    <module>domains/notification/facebook/service-engine</module>
-    <module>domains/report/plaintext/service-engine</module>
-    <module>domains/issues/trac/service-engine</module>
-    <module>domains/test/maven/service-engine</module>
-    <module>domains/build/maven/service-engine</module>
-    <module>domains/deploy/maven/service-engine</module>
-
-    <!-- Implementation Modules -->
-    <module>domains/build/maven/service-unit</module>
-    <module>domains/deploy/maven/service-unit</module>
-    <module>domains/test/maven/service-unit</module>
-    <module>domains/scm/subversion/service-unit</module>
-    <module>domains/notification/email/service-unit</module>
-    <module>domains/notification/twitter/service-unit</module>
-    <module>domains/notification/facebook/service-unit</module> 
-    <module>domains/notification/xmpp/service-unit</module>
-    <module>domains/report/plaintext/service-unit</module>
-    <module>domains/issues/trac/service-unit</module>
+    <!-- Domains -->
+    <module>domains</module>
 
     <!-- Packaging Modules -->
-    <module>package/all</module>
-    <module>package/essential</module>
-    <module>package/assembly</module>
-
-    <!-- Config -->
-    <module>core/config/jbi</module>
-    <module>core/config/ui</module>
-
-    <!-- Context -->
-    <module>core/context/service-engine</module>
-    <module>core/context/service-unit</module>
-
-    <!-- tool-links -->
-    <module>features/link/http/service-unit</module>
-    <module>features/link/http-jms/service-unit</module>
-    <module>features/link/http-processor/service-engine</module>
-    <module>features/link/http-processor/service-unit</module>
+    <module>package</module>
    
     <!-- Maven Archetypes -->
-    <module>archetypes/connector-archetype</module>
-    <module>archetypes/domain-archetype</module> 
+    <module>archetypes</module> 
 
   </modules>
 
