@@ -36,7 +36,7 @@ import org.openengsb.core.common.Domain;
 import org.openengsb.core.common.DomainProvider;
 import org.openengsb.core.common.context.ContextCurrentService;
 import org.openengsb.core.common.internal.ContextImpl;
-import org.openengsb.ui.web.service.DomainService;
+import org.openengsb.core.common.service.DomainService;
 import org.osgi.framework.ServiceReference;
 
 import static org.mockito.Matchers.any;
