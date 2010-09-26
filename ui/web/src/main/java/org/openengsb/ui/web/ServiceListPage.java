@@ -16,6 +16,11 @@
 
 package org.openengsb.ui.web;
 
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 import org.apache.wicket.ajax.AjaxRequestTarget;
@@ -31,14 +36,9 @@ import org.apache.wicket.spring.injection.annot.SpringBean;
 import org.openengsb.core.common.Domain;
 import org.openengsb.core.common.ServiceManager;
 import org.openengsb.core.common.descriptor.ServiceDescriptor;
+import org.openengsb.core.common.service.DomainService;
 import org.openengsb.core.common.util.AliveState;
-import org.openengsb.ui.web.service.DomainService;
 import org.osgi.framework.ServiceReference;
-
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
 
 public class ServiceListPage extends BasePage {
 
